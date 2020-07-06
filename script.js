@@ -2,7 +2,7 @@ var rev = "fwd";
     function titlebar(val){
         var msg  = "FPU-CyberSecurity-Club";
         var res = " ";
-        var speed = 500;
+        var speed = 1000;
         var pos = val;
         msg = "   |-"+msg+"-|";
         var le = msg.length;
