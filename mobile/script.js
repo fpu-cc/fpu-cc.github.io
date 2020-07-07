@@ -1,6 +1,6 @@
 var rev = "fwd";
     function titlebar(val){
-        var msg  = "FPU-CyberClub";
+        var msg  = "FPU-CyberSecurity-Club";
         var res = " ";
         var speed = 500;
         var pos = val;
