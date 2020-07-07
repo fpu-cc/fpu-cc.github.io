@@ -1,0 +1,102 @@
+body {
+	background: #000000;
+}
+
+div .banner {
+	margin-bottom: -40px;
+	height: 70vh;
+	background-image: url(../img/dh.png);
+	background-size: fill;
+	background-position: center;
+	background-repeat: no-repeat;
+	image-rendering: pixelated;
+}
+
+.navbar-nav {
+	background: linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(0,0,0,0) 40%);
+}
+
+.dropdown-menu {
+	background: none;
+}
+
+.dropdown-toggle {
+	color: fuchsia;
+	margin-bottom: 4px;
+}
+
+.dropdown .navbar-nav {
+	color: yellow;
+}
+
+.dropdown a:hover {
+	color: aqua;
+	text-decoration: none;
+}
+
+.tcc {
+	margin: 20px;
+	padding: 20px;
+
+	border: 0;
+	border-top: 1px solid #2e2e03;
+	border-radius: 40px;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(2,24,29,0.8) 100%);
+}
+
+.heading {
+	color: #04656f;
+}
+
+.subheading {
+	color: #033439;
+	margin-top: -10px;
+	letter-spacing: 2px;
+}
+
+p {
+	margin: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1100px) {
+	div .banner {
+		background-size: contain;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	div .banner {
+		margin-top: 6px;
+		height: 40vh;
+		background-image: url(../img/dhs.png);
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.dropdown
+	{
+		padding-top: 8px;
+		padding-left: 11px;
+	}
+	.dropdown-menu
+	{
+		border: 1px solid white;
+		padding-left: 6px;
+		margin-top: -12ox;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.dropdown
+	{
+		padding-top: 6px;
+		padding-bottom: 4px;
+	}
+	.navbar-nav
+	{
+		padding-left: 6px;
+	}
+}
