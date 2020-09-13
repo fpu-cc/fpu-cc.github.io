@@ -1,10 +1,12 @@
 <html>
   <head>
     <title>Quick Start</title>
-     <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div>
+    <style>
     @font-face {
       font-family:"TopazPlus";
-      src: url(public/fonts/topazplus500.ttf);
+      src: url(../public/fonts/topazplus500.ttf);
     }
     body {
       color: #DDDDDD;
@@ -14,30 +16,29 @@
       margin: 0 auto;
       padding: 1em 0 1em 0;
     }
-    </style>
-  </head>
-  <body class="hack dark"><center><div style="display: inline-block; text-align: left;">
-<div align=center>
-  <pre> 
+  pre {
+  font-family:"TopazPlus", "Lucida Console", monospace, Monaco;;
+  display: inline-block;
+  font-size:1vw;
+  transform: scale(1,1); <!-- width, height -->
+  color: #e5e5e5;
+  }
+  a {color: #5cc2ca; text-decoration: none;}
+  ik { color: #7a80a2; }
+     </style></head>
+<body class="hack dark"><center><div style="display: inline-block; text-align: left;">                                              
+<pre><ik>
+To follow along with labs, make a virtualized hacking environment. 
+These are easy to maintain but can take a bit of time to set-up. 
+Be sure virtualization is enabled in your BIOS.</ik>
+<br>
+<a href="https://www.virtualbox.org/wiki/Downloads">1.) Download and Install Virtual Box</a>
 
-</pre>                                                 
-                                                 
+<a href="https://download.virtualbox.org/virtualbox/6.1.12/Oracle_VM_VirtualBox_Extension_Pack-6.1.12.vbox-extpack">2.) Download and Install the Extension Pack</a>
 
-
-To follow along with labs, make a virtualized hacking environment. These are easy to maintain but can take a bit of time to set-up.<br> 
-Be sure virtualization is enabled in your BIOS.<br>
-<br>
-Download Virtualization Software:<br>
-  <a href="https://www.virtualbox.org/wiki/Downloads">Virtual Box</a><br>
-  <a href="https://download.virtualbox.org/virtualbox/6.1.12/Oracle_VM_VirtualBox_Extension_Pack-6.1.12.vbox-extpack">Extension Pack</a><br>
-<br>
-Download Parrot Security Virtual Image:<br>
-<a href="https://download.parrot.sh/parrot/iso/4.10/Parrot-security-4.10_virtual.ova">HTTP Download</a><br>
-<a href="https://download.parrot.sh/parrot/iso/4.10/Parrot-security-4.10_virtual.ova.torrent">Torrent Download</a><br>
-<br>
-Login Defaults are root:toor<br>
-<br>
-  <a href="https://tryhackme.com/room/openvpn">Sign up with TryHackMe.com and set-up your OpenVPN</a>
-    </div>
+<a href="https://download.parrot.sh/parrot/iso/4.10/Parrot-security-4.10_virtual.ova">3.) Download Parrot Security Virtual Image</a>  ( Default Login is root:toor )
+  
+<a href="https://tryhackme.com/room/openvpn">4.) Sign up with TryHackMe.com and set up OpenVPN</a>
+    </div></div>
     </body>
     </html>
